@@ -1,0 +1,8 @@
+@media only screen and (max-width: 620px) {
+    .h1, .p, .h2, .a, .text {
+        width: 100%;
+    } 
+}
+
+
+

@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+}
+html::-webkit-scrollbar {
+    width: 2rem;
+}
+html::-webkit-scrollbar-track{
+background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 5rem;
+}
+.background{
+    background-image: url("Bitcoin.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+}
+body{
+    background-color: #0000;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-top: 1.5Rem;
+    align-items: center;
+    background-color: black;
+    border: none;
+    padding-right: 20px;
+}
+.logo img{
+width: 75px;
+height: auto;
+margin-left: 5Rem;
+border-radius: 150px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 3Rem;
+}
+ul li {
+    list-style: none;
+    margin-right: 15px;
+    padding-left: 10px;
+}
+ul li a{
+text-decoration: none;
+color: #fff;
+transition: 0.3s;
+font-size: large;
+}
+ul li a:hover {
+    text-transform: capitalize;
+    color: rgb(126, 225, 106);
+    border-bottom: solid 1px;
+    padding: 8px;
+}
+hr{
+    border-bottom: solid 0.1px;
+    color: rgb(54, 46, 46);
+    margin-top: 15px;
+}
+.c-title{
+    margin-left: 5Rem;
+    margin-top: 10Rem;
+}
+.c-title h1 {
+    color:#fff;
+    font-size: 4.8Rem;
+}
+.c-title p {
+    color: rgb(0, 0, 0);
+    line-height: 2Rem;
+    font-size: 1.2Rem;
+    font-weight: 100;
+}
+.c-title button{
+    margin-top: 2Rem;
+    background-color: #1bc367e9;
+    color:#fff;
+    font-size: 1.2Rem;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.c-title button a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+
+.c-title button:hover {
+     letter-spacing: 2px;
+     transition: 0.3s all;
+}
+
+.section1{
+    background-color: black;
+}
+.section1 h1{
+align-items: center;
+text-align: center;
+color: #fff;
+font-size: 3Rem;
+}
+.section1 span {
+    color:#d3ad7f;
+}
+.section1{
+    padding: 5Rem;
+}
+.Sobrenos{
+    display:flex;
+    align-items: center;
+    background-color: #13131a;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 2Rem;
+}
+.Sobrenos img{
+    max-width: 100%;
+}
+.sobrenostitle{
+    margin-left: 1.3Rem ;
+}
+.sobrenostitle h2 {
+    color: #d3ad7f;
+    font-size: 2Rem;
+}
+.sobrenostitle p {
+    line-height: 2Rem;
+    padding-top: 1Rem;
+    font-size: 1Rem;
+    color: whitesmoke;
+    width: 45Rem;
+}
+.sobrenostitle button {
+        margin-top: 2Rem;
+        background-color: #d3ad7f;
+        color:#fff;
+        font-size: 1.2Rem;
+        padding: 10px 15px;
+        cursor: pointer;
+}
+.sobrenostitle button:hover {
+    letter-spacing: 2px;
+    transition: 0.3s all;
+}
+.sobrenostitle button a {
+    text-decoration: none;
+    color:#1a1919;
+}
+
+.hrsection1{
+    border-bottom: solid 0.1px;
+    color: rgb(54, 46, 46);
+    
+}
+
+
+.section2{
+    background-color: black;
+}
+.section2 h1{
+align-items: center;
+text-align: center;
+color: #fff;
+font-size: 3Rem;
+}
+.section2 span {
+    color:#86d37f;
+}
+.section2{
+    padding: 5Rem;
+}
+.SobreFull{
+    display:flex;
+    align-items: center;
+    background-color: #13131a;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 2Rem;
+}
+.SobreFull img{
+    max-width: 100%;
+}
+.sobrefulltitle{
+    margin-left: 1.3Rem ;
+}
+.sobrefulltitle h2 {
+    color: #76c27d;
+    font-size: 2Rem;
+}
+.sobrefulltitle h2 a {
+    text-decoration: none;
+    color: #76c27d;
+}
+
+
+.sobrefulltitle p {
+    line-height: 2Rem;
+    padding-top: 1Rem;
+    font-size: 1Rem;
+    color: whitesmoke;
+    width: 45Rem;
+}
+.sobrefulltitle button {
+        margin-top: 2Rem;
+        background-color: #a6e799;
+        color:#fff;
+        font-size: 1.2Rem;
+        padding: 10px 15px;
+        cursor: pointer;
+}
+.sobrefulltitle button:hover {
+    letter-spacing: 2px;
+    transition: 0.3s all;
+}
+.hrsection2{
+    border-bottom: solid 0.1px;
+    color: rgb(54, 46, 46);
+    
+}
+
+
+
+.section3{
+    background-color: black;
+}
+.section3 h1{
+align-items: center;
+text-align: center;
+color: #fff;
+font-size: 3Rem;
+}
+.section3 span {
+    color:#acb2eb;
+}
+.section3{
+    padding: 5Rem;
+}
+.SobreCyber{
+    display:flex;
+    align-items: center;
+    background-color: #13131a;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 2Rem;
+}
+.SobreCyber img{
+    max-width: 100%;
+    height: auto;
+}
+.sobrecybertitle{
+    margin-left: 1.3Rem ;
+}
+.sobrecybertitle h2 {
+    color: #96aae0;
+    font-size: 2Rem;
+}
+.sobrecybertitle h2 a {
+    text-decoration: none;
+    color: #96aae0;
+}
+
+
+
+
+.sobrecybertitle p {
+    line-height: 2Rem;
+    padding-top: 1Rem;
+    font-size: 1Rem;
+    color: whitesmoke;
+    width: 45Rem;
+}
+.sobrecybertitle button {
+        margin-top: 2Rem;
+        background-color: #96aae0;
+        color:#fff;
+        font-size: 1.2Rem;
+        padding: 10px 15px;
+        cursor: pointer;
+}
+.sobrecybertitle button:hover {
+    letter-spacing: 2px;
+    transition: 0.3s all;
+}
+.hrsection3{
+    border-bottom: solid 0.1px;
+    color: rgb(54, 46, 46);
+    
+}
+
+
+
+.section4{
+    background-color: black;
+}
+.section4 h1{
+align-items: center;
+text-align: center;
+color: #fff;
+font-size: 3Rem;
+}
+.section4 span {
+    color:#d37acb;
+}
+.section4{
+    padding: 5Rem;
+}
+.Sobredd{
+    display:flex;
+    align-items: center;
+    background-color: #13131a;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 2Rem;
+}
+.Sobredd img{
+    max-width: 100%;
+    height: auto;
+}
+.sobreddtitle{
+    margin-left: 1.3Rem ;
+}
+.sobreddtitle h2 {
+    color: #da7ec6;
+    font-size: 2Rem;
+}
+.sobreddtitle h2 a {
+    text-decoration: none;
+    color: #da7ec6;
+}
+.sobreddtitle p {
+    line-height: 2Rem;
+    padding-top: 1Rem;
+    font-size: 1Rem;
+    color: whitesmoke;
+    width: 45Rem;
+}
+.sobreddtitle button {
+        margin-top: 2Rem;
+        background-color: #d37f86;
+        color:#fff;
+        font-size: 1.2Rem;
+        padding: 10px 15px;
+        cursor: pointer;
+}
+.sobreddtitle button:hover {
+    letter-spacing: 2px;
+    transition: 0.3s all;
+}
+.hrsection4{
+    border-bottom: solid 0.1px;
+    color: rgb(54, 46, 46);
+    
+}
+.sobreddtitle p a {
+    text-decoration: none;
+    color: pink;
+}
+
+
+
+.section5{
+    background-color: #000000;
+}
+.section5 h1 {
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-size: 3Rem;
+}
+.section5 h1 span {
+    color: #d3ad7f;
+}
+.Container-card1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2Rem;
+    margin-bottom: 1Rem;
+    margin-left: 0px;
+}
+.cardimg{
+    border: solid 1px rgba(255, 255, 255, .3);
+    padding: 5Rem;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    width: 25Rem;
+    height: 23Rem;
+}
+.cardimg img {
+    width: 120px;
+    height: auto;
+    border-radius: 20px;
+}
+.cardimg h3 {
+    font-size: 1.5Rem;
+    color:#d3ad7f;
+}
+.cardimg p {
+    color: #fff;
+    font-size: 1.5Rem;
+    margin-top: 1Rem;
+}
+.cardimg button {
+    margin-top: 1Rem;
+    background-color: rgb(189, 139, 95);
+    color: #181818;
+    font-size: 1.2Rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.cardimg button:hover {
+    letter-spacing: 5px;
+    transition: 0.3s all;
+}
